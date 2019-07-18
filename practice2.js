@@ -2,7 +2,7 @@ var http = require('http');
 var fs = require('fs');
 var ejs = require('ejs');
 var url = 'http://api.moemoe.tokyo/anime/v1/master/2019/3?ogp=1';//2019 の夏アニメ
-
+//
 var hostname = '127.0.0.1';
 var port = 3000;
 var server = http.createServer();
